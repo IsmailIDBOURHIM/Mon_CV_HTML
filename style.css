@@ -1,0 +1,152 @@
+body {
+    font-family: -webkit-pictograph, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    
+}
+.maPhoto {
+    height: 116%;
+    width: 162%;
+    object-fit: contain;
+}
+
+main {
+    box-shadow: 30px 0px 40px rgb(196, 196, 196), -30px 0px 40px rgb(196, 196, 196);
+    margin: auto;
+    max-width: 900px;
+}
+
+.ombre {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    background-color: white;
+    width: 100%;
+}
+header {
+    height: 160px;
+    padding-top: 10px;
+    color: white;
+    background-color: rgb(12, 34, 75);
+}
+
+.photo {
+    width: 130px;
+    height: 130px;
+}
+.name{
+    margin-left: 25%;
+    margin-top: -15%;
+}
+#nom{
+    color: orange;
+
+}
+h1{
+    color: #f8fafa;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 27px;   
+}
+h3{
+    color: #13c3ba;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 20px;
+}
+.post{
+    color:#26a3a9;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 20px;
+}
+.right{
+    padding: 0;
+    margin: 5px;
+    margin-top: -15%;
+}
+.right p{
+    margin-left: 590px;
+    letter-spacing: .1rem;    
+}
+.infos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 590px;
+}
+.infosdet{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 1px;
+}
+
+.infosdet img {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+.section-left{
+    background-color: white;
+    float: left;
+    width: 400px;
+}
+.section-right{
+    background-color: white;
+    float: right;
+    width: 400px;
+}
+h4{
+    margin-left: 5%;
+    color: rgb(12, 34, 75);
+    letter-spacing: .1rem;
+    font-size: 18px;
+    background-color: orange;
+}
+h4.light{
+    border-top: 2px solid rgb(12, 34, 75);
+    width: 90%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+
+.detail-left{
+    margin-left: 10%;
+}
+
+.skills {
+    padding: 0px;
+    width: 40%;
+    margin-left: 10%
+}
+.barre{
+    background-color: #fff;
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 7px;
+}
+strong{
+    color: #26a3a9;
+    text-decoration: none; 
+}
+.remplissage {
+    height: 100%;
+    background-color:  rgb(12, 34, 75);
+}
+.interet1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 3%;
+}
+.interet1 div {
+    margin-left: 30px;
+}
+.aptitude{
+    margin-left: 10%;
+}
+
+
+
